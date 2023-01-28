@@ -1,10 +1,16 @@
 * {
   margin: 0;
 }
+body {
+  /* width: 100vw; */
+  overflow-x: hidden;
+  position: relative;
+}
 html {
-  background: linear-gradient(to bottom left, rgba(17, 16, 16, 0.582), rgba(12, 8, 24, 0.904));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgb(0, 0, 29, 0.8));
   scroll-behavior: smooth;
-  --imp-text-color: #c770f0;
+  width: 100%;
+  --imp-text-color: #2396d9;
 }
 
 li {
@@ -19,6 +25,18 @@ a {
   color: var(--imp-text-color);
 }
 
+.background-img {
+  width: 100vw;
+  overflow: hidden;
+}
+/* background images */
+.background-img img {
+  width: 100%;
+  min-width: 100rem;
+  opacity: 0.9;
+  z-index: -2;
+}
+
 .header-section {
   height: 3rem;
   background-color: #282c34;
@@ -28,15 +46,34 @@ a {
   justify-content: space-between;
   color: white;
   position: fixed;
-  width: 100%;
+  top: 0;
+  width: 100vw;
   z-index: 2;
-  padding-right: 3rem;
 }
 .toSection {
-  margin-right: 3rem;
+  margin-right: 2rem;
+  display: flex;
 }
 .toSection a {
   margin-left: 1rem;
+}
+
+.toSection a::after {
+  box-sizing: border-box;
+  background: #2396d9;
+  border-radius: 16px;
+  bottom: 1px;
+  content: "";
+  display: block;
+  height: 5px;
+  left: 0;
+  position: relative;
+  transition: all 0.5s ease-out 0s;
+  width: 0;
+  z-index: -1;
+}
+.toSection a:hover::after {
+  width: 100%;
 }
 
 .home-header {
@@ -55,7 +92,9 @@ a {
 .home-content {
   padding: 9rem 0 2rem;
   color: whitesmoke;
-  text-align: left;
+  margin-left: 5rem;
+  position: absolute;
+  top: 0;
 }
 
 /* about */
@@ -63,6 +102,7 @@ a {
 .about-section {
   position: relative;
   padding: 10rem 2rem;
+  margin-top: 10rem;
 }
 
 .about-description {
@@ -126,9 +166,9 @@ a {
   margin: auto;
 }
 .home-social-icons:hover {
-  fill: #87209e;
-  box-shadow: 0 0 5px #87209e;
-  text-shadow: 0 0 2px #87209e;
+  fill: #2396d9;
+  box-shadow: 0 0 5px #2396d9;
+  text-shadow: 0 0 2px #2396d9;
   scale: 1.2;
 }
 
@@ -182,7 +222,7 @@ a {
 #cover:hover {
   transform: scale(1.02);
   transition: 1s;
-  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561);
+  box-shadow: 0 4px 4px 5px rgba(35, 152, 214, 0.561);
 }
 
 .card-text {
@@ -201,27 +241,27 @@ a {
 .linkBtn a {
   color: white;
   display: inline-block;
-  background-color: #c770f0;
+  background-color: #2396d9;
   border-radius: 0.2rem;
   padding: 0.2rem;
 }
 
 @media (max-width: 970px) {
   .card-wrapper {
-    /* display: flex; */
     justify-content: center;
     padding: 2rem;
     flex-direction: column;
   }
 }
 
-/* .card {
-} */
+.section {
+  transition: all 0.3s;
+  /* display: none; */
+}
 
 /* footer */
 footer {
   margin-top: 2rem;
-  background-color: #0a0416;
   bottom: 0;
   padding: 1rem 0;
   height: 3rem;
