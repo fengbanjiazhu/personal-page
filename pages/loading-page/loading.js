@@ -1,5 +1,6 @@
 const body = document.querySelector(".body");
-const markup = function () {
+
+const loadMarkup = function () {
   return `
   <div id="loader-wrapper">
     <div id="loader"> </div>
@@ -9,8 +10,12 @@ const markup = function () {
   </div>`;
 };
 
-body.insertAdjacentHTML("afterbegin", markup);
+const loading = function () {
+  const loadHtml = loadMarkup();
+  body.insertAdjacentHTML("afterbegin", loadHtml);
 
-window.onload = function () {
-  body.className += " loaded";
+  window.onload = function () {
+    body.className += " loaded";
+  };
 };
+loading();

@@ -8,20 +8,22 @@
   </head>
   <link rel="stylesheet" href="./style.css" />
   <link rel="stylesheet" href="./pages/loading-page/loading.css" />
-  <body class="body">    
+  <script defer type="module" src="./index.js"></script>
+  <body class="body">
+    <!-- run loading first -->
+    <script src="./pages/loading-page/loading.js"></script>
+
     <!-- header -->
     <div class="header-section">
-      <!-- <div class="logo">
-        <img src="" alt="" />
-      </div> -->
+
       <div class="toSection">
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#portfolio">Portfolio</a>
       </div>
     </div>
-    <!-- banner -->
 
+    <!-- banner -->
     <div class="home-section " id="home">
       <div class="background-img">
         <img src="./img/assets/bg2.gif" alt="">
@@ -32,97 +34,51 @@
         </h1>
         <h1 class="heading-name">
           I'M
-          <strong class="main-name purple"> Jeffrey Ren</strong>
+          <strong class="main-name blue"> Jeffrey Ren</strong>
         </h1>
+      </div>
+      <div class="down-arrow">
+        <img src="./img/assets/double-down-arrow.png" alt="">
       </div>
     </div>
     <!-- about -->
-    <div class="about-section about-description section" id="about">
-      
-      
-          <h1>LET ME <span class="purple"> INTRODUCE </span> MYSELF</h1>
-          <p class="about-body ">
-            I am an entry-level programmer with a passion for front-end development.
-            <br />
-            <br />I have a strong understanding of
-            <i>
-              <b class="purple"> HTML, CSS, and JavaScript, </b>
-            </i>
-            <br />
-            <br />
-            as well as some basic knowledge of
-            <i>
-              <b class="purple">React and Vue frameworks.</b>
-            </i>
-            <br />
-            <br />
-            I am focusing on expanding my skills in frontend development,
-            <br />
+    <div class="about-section about-description section" id="about">  
+      <h1>LET ME <span class="blue"> INTRODUCE </span> MYSELF</h1>
+      <p class="about-body fade-out">
+        I am an entry-level programmer with a passion for front-end development.
+        <br />
+        <br />I have a strong understanding of
+        <i>
+          <b class="blue"> HTML, CSS, and JavaScript, </b>
+        </i>
+        <br />
+        <br />
+        as well as some knowledge of
+        <i>
+          <b class="blue">React and Vue frameworks.</b>
+        </i>
+        <br />
+        <br />
+        I am focusing on expanding my skills in frontend development,
+        <br />
 
-            also learning <i><b class="purple">Node.js</b></i>
-            and working towards to becomes a full stack developer.
-          </p>
-     
-      
+        also learning <i><b class="blue">Node.js</b></i>
+        and working towards to becomes a full stack developer.
+      </p>
     </div>
+
     <!-- portfolio -->
     <div class="portfolio-section section" id="portfolio">
       <h1 class="heading ">PORTFOLIOS:</h1>
       <div class="card-wrapper">
-
-      
-      <div class="project-card" id="cover">
-        <div class="project-card-view card" >
-          <img class="card-img-top" src="./img/pokedex.jpg" alt="card-img">
-          <div class="card-body">
-            <div class="card-text">
-              <h2>Pokedex</h2>
-              <p >
-                A Pokedex can check all pokemon details
-              </p>
-            </div>
-              <div class="linkBtn">
-                <a  href="https://github.com/fengbanjiazhu/PokeDex" target="_blank" class="btn btn-primary">
-                  GitHub
-                </a>
-                <a  href="https://fengbanjiazhu.github.io/PokeDex/" target="_blank" class="btn btn-primary" style="margin-left: 10px;">
-                  Demo
-                </a>
-              </div>
-            </div>
-          </div>
-        
       </div>
-
-        <div class="project-card" id="cover">
-          <div class="project-card-view card">
-            <img class="card-img-top" src="./img/drag-drop.jpg" alt="card-img">
-            <div class="card-body">
-              <div class="card-text">
-                <h2>To-do Drag & Drop</h2>
-                <p>
-                  a simple to-do list with drag & drop function
-                </p>
-              </div>
-                <div class="linkBtn">
-                  <a  href="https://github.com/fengbanjiazhu/todo-Drag" target="_blank" class="btn btn-primary">
-                    GitHub
-                  </a>
-                  <a href="https://fengbanjiazhu.github.io/todo-Drag/" target="_blank" class="btn btn-primary" style="margin-left: 10px;">
-                    Demo
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
     </div>
 
     <!-- contact -->
     <div class="contact-section section" >
       <div class="contact-text">
         <h1>FIND ME ON</h1>
-        <p>Feel free to <span class="purple">connect </span>with me</p>
+        <p>Feel free to <span class="blue">connect </span>with me</p>
       </div>
 
       <ul class="home-about-social-links">
@@ -164,7 +120,9 @@
     </div>
     <!-- footer -->
     <footer>
-     Jeffrey
+      <p>
+       Jeffrey Ren 2023
+       </p>
     </footer>
   </body>
 </html>
