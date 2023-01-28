@@ -19,6 +19,16 @@
       },
       "image": "drag-drop.jpg",
       "description": " a simple to-do list with drag & drop function"
+    },
+    {
+      "id": "2",
+      "name": "Forkify",
+      "link": {
+        "github": "https://github.com/fengbanjiazhu/Forkify-practice",
+        "demo": "https://silly-ganache-79ed83.netlify.app"
+      },
+      "image": "forkify.jpg",
+      "description": "a web app with searching recipes function."
     }
   ]
 }
