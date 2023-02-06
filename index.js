@@ -1,4 +1,3 @@
-import { Function } from "core-js/library";
 import { cardMarkup } from "./pages/main-page/portfolio.js";
 
 const projectContainer = document.querySelector(".card-wrapper");
