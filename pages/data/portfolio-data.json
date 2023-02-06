@@ -29,6 +29,16 @@
       },
       "image": "forkify.jpg",
       "description": "a web app with searching recipes function."
+    },
+    {
+      "id": "3",
+      "name": "Expenses List",
+      "link": {
+        "github": "https://github.com/fengbanjiazhu/react-expense-list",
+        "demo": "https://fengbanjiazhu.github.io/react-expense-list/"
+      },
+      "image": "Expenses-List.jpg",
+      "description": "a single-page expense tracker app build with React "
     }
   ]
 }
