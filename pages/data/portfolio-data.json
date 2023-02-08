@@ -12,13 +12,13 @@
     },
     {
       "id": "1",
-      "name": "To-do Drag & Drop",
+      "name": "To-do List",
       "link": {
         "github": "https://github.com/fengbanjiazhu/todo-Drag",
         "demo": "https://fengbanjiazhu.github.io/todo-Drag/"
       },
       "image": "drag-drop.jpg",
-      "description": " a simple to-do list with drag & drop function"
+      "description": " a simple to-do list with Drag & Drop function"
     },
     {
       "id": "2",
@@ -32,7 +32,7 @@
     },
     {
       "id": "3",
-      "name": "Expenses List",
+      "name": "Expense List",
       "link": {
         "github": "https://github.com/fengbanjiazhu/react-expense-list",
         "demo": "https://fengbanjiazhu.github.io/react-expense-list/"

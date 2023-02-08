@@ -217,7 +217,7 @@ a {
   flex-direction: column;
 }
 .card-img-top {
-  max-height: 60%;
+  max-height: 70%;
   margin: 0.5rem auto;
   max-width: 100%;
 }
@@ -248,11 +248,13 @@ a {
   box-shadow: 0 4px 4px 5px rgba(35, 152, 214, 0.561);
 }
 
-.card-text {
+.card-text h2 {
   text-align: center;
+  height: 3rem;
 }
 .card-text p {
   margin-top: 1rem;
+  text-align: center;
 }
 
 .linkBtn {
