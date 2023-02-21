@@ -205,10 +205,14 @@ a {
   align-items: center;
   color: white;
   flex-direction: column;
+  width: 100%;
 }
 
 .card-wrapper {
   display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card {
@@ -231,6 +235,8 @@ a {
 }
 
 .project-card {
+  min-width: 15rem;
+  width: 29%;
   height: 33rem;
   margin: 1rem;
   padding: 1rem 1rem;
@@ -253,7 +259,6 @@ a {
   height: 3rem;
 }
 .card-text p {
-  margin-top: 1rem;
   text-align: center;
 }
 
@@ -269,14 +274,6 @@ a {
   background-color: #2396d9;
   border-radius: 0.2rem;
   padding: 0.2rem;
-}
-
-@media (max-width: 970px) {
-  .card-wrapper {
-    justify-content: center;
-    padding: 2rem;
-    flex-direction: column;
-  }
 }
 
 .section {

@@ -39,6 +39,36 @@
       },
       "image": "Expenses-List.jpg",
       "description": "a single-page expense tracker app build with React "
+    },
+    {
+      "id": "4",
+      "name": "Food Order",
+      "link": {
+        "github": "https://github.com/fengbanjiazhu/Food-Order-App",
+        "demo": "https://fengbanjiazhu.github.io/Food-Order-App/"
+      },
+      "image": "React-Meals.jpg",
+      "description": "a food order app simulator build with React. (fetching online backend api)"
+    },
+    {
+      "id": "5",
+      "name": "Book Store",
+      "link": {
+        "github": "https://github.com/fengbanjiazhu/react-dummy-store",
+        "demo": "https://fengbanjiazhu.github.io/react-dummy-store/"
+      },
+      "image": "Dummy-Shop.jpg",
+      "description": "A dummy book store build with React. (fetching online backend api)"
+    },
+    {
+      "id": "6",
+      "name": "Dummy Quotes",
+      "link": {
+        "github": "https://github.com/fengbanjiazhu/quotes",
+        "demo": "https://fengbanjiazhu.github.io/quotes/"
+      },
+      "image": "Dummy-Quotes.jpg",
+      "description": "A dummy quotes build with React, uses hooks, router.(fetching online backend api)"
     }
   ]
 }
