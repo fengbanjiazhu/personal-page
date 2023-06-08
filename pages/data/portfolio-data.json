@@ -2,13 +2,13 @@
   "data": [
     {
       "id": "0",
-      "name": "pokedex",
+      "name": "Uptown",
       "link": {
-        "github": "https://github.com/fengbanjiazhu/PokeDex",
-        "demo": "https://fengbanjiazhu.github.io/PokeDex/"
+        "github": "https://github.com/fengbanjiazhu/Uptown",
+        "demo": "https://github.com/fengbanjiazhu/Uptown"
       },
-      "image": "pokedex.jpg",
-      "description": "A Pokedex can check all pokemon details. Build with pure JS."
+      "image": "Uptown.jpg",
+      "description": "A full stack MERN web app, with account, purchase, booking, chatbot etc systems. (not hosting yet)"
     },
     {
       "id": "1",
@@ -32,46 +32,56 @@
     },
     {
       "id": "3",
-      "name": "Expense List",
+      "name": "pokedex",
       "link": {
-        "github": "https://github.com/fengbanjiazhu/react-expense-list",
-        "demo": "https://fengbanjiazhu.github.io/react-expense-list/"
+        "github": "https://github.com/fengbanjiazhu/PokeDex",
+        "demo": "https://fengbanjiazhu.github.io/PokeDex/"
       },
-      "image": "Expenses-List.jpg",
-      "description": "A single-page expense tracker app. Build with React "
+      "image": "pokedex.jpg",
+      "description": "A Pokedex can check all pokemon details. Build with pure JS."
     },
     {
       "id": "4",
+      "name": "PHP LMS",
+      "link": {
+        "github": "https://github.com/fengbanjiazhu/php-LMS",
+        "demo": "https://github.com/fengbanjiazhu/php-LMS"
+      },
+      "image": "LMS.jpg",
+      "description": "Library Management System. Build with PHP, MySQL & Javascript with Layui.(not hosting)"
+    },
+    {
+      "id": "5",
       "name": "Food Order",
       "link": {
         "github": "https://github.com/fengbanjiazhu/Food-Order-App",
         "demo": "https://fengbanjiazhu.github.io/Food-Order-App/"
       },
       "image": "React-Meals.jpg",
-      "description": "A food order app simulator, build with React. (fetching online backend api)"
+      "description": "A food order app simulator, build with React. (fetching online firebase api)"
     },
     {
-      "id": "5",
+      "id": "6",
       "name": "Book Store",
       "link": {
         "github": "https://github.com/fengbanjiazhu/react-dummy-store",
         "demo": "https://fengbanjiazhu.github.io/react-dummy-store/"
       },
       "image": "Dummy-Shop.jpg",
-      "description": "A dummy book store build with React. (fetching online backend api)"
+      "description": "A dummy book store build with React. (fetching online firebase api)"
     },
     {
-      "id": "6",
+      "id": "7",
       "name": "Dummy Quotes",
       "link": {
         "github": "https://github.com/fengbanjiazhu/quotes",
         "demo": "https://fengbanjiazhu.github.io/quotes/"
       },
       "image": "Dummy-Quotes.jpg",
-      "description": "A dummy quotes build with React, uses hooks, router.(fetching online backend api)"
+      "description": "A dummy quotes build with React, uses hooks, router.(fetching online firebase api)"
     },
     {
-      "id": "7",
+      "id": "8",
       "name": "To-do List",
       "link": {
         "github": "https://github.com/fengbanjiazhu/todo-Drag",
@@ -79,6 +89,16 @@
       },
       "image": "drag-drop.jpg",
       "description": " a simple to-do list with Drag & Drop function"
+    },
+    {
+      "id": "9",
+      "name": "Expense List",
+      "link": {
+        "github": "https://github.com/fengbanjiazhu/react-expense-list",
+        "demo": "https://fengbanjiazhu.github.io/react-expense-list/"
+      },
+      "image": "Expenses-List.jpg",
+      "description": "A single-page expense tracker app. Build with React "
     }
   ]
 }
