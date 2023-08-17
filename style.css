@@ -86,20 +86,20 @@ a {
 
 .home-section {
   position: relative;
-  z-index: -1;
+  z-index: 1;
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px;
   padding-top: 30px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .home-content {
-  padding: 9rem 0 2rem;
+  /* padding: 9rem 0 2rem; */
   color: whitesmoke;
   margin-left: 5rem;
   position: absolute;
-  top: 0;
+  top: -25rem;
 }
 
 .home-content h1.heading {
